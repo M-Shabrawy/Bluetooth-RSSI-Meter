@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8751B392BCC4F8100A34885 /* Bluetooth_RSSI_MeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8751B382BCC4F8100A34885 /* Bluetooth_RSSI_MeterApp.swift */; };
+		D8751B3B2BCC4F8100A34885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8751B3A2BCC4F8100A34885 /* ContentView.swift */; };
+		D8751B3D2BCC4F8400A34885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8751B3C2BCC4F8400A34885 /* Assets.xcassets */; };
+		D8751B412BCC4F8400A34885 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8751B402BCC4F8400A34885 /* Preview Assets.xcassets */; };
+		D8751B4B2BCC4F8500A34885 /* Bluetooth_RSSI_MeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8751B4A2BCC4F8500A34885 /* Bluetooth_RSSI_MeterTests.swift */; };
+		D8751B552BCC4F8500A34885 /* Bluetooth_RSSI_MeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8751B542BCC4F8500A34885 /* Bluetooth_RSSI_MeterUITests.swift */; };
+		D8751B572BCC4F8500A34885 /* Bluetooth_RSSI_MeterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8751B562BCC4F8500A34885 /* Bluetooth_RSSI_MeterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8751B472BCC4F8500A34885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8751B2D2BCC4F8100A34885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8751B342BCC4F8100A34885;
+			remoteInfo = "Bluetooth RSSI Meter";
+		};
+		D8751B512BCC4F8500A34885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8751B2D2BCC4F8100A34885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8751B342BCC4F8100A34885;
+			remoteInfo = "Bluetooth RSSI Meter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8751B352BCC4F8100A34885 /* Bluetooth RSSI Meter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bluetooth RSSI Meter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8751B382BCC4F8100A34885 /* Bluetooth_RSSI_MeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_RSSI_MeterApp.swift; sourceTree = "<group>"; };
+		D8751B3A2BCC4F8100A34885 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8751B3C2BCC4F8400A34885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8751B3E2BCC4F8400A34885 /* Bluetooth_RSSI_Meter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bluetooth_RSSI_Meter.entitlements; sourceTree = "<group>"; };
+		D8751B402BCC4F8400A34885 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8751B462BCC4F8500A34885 /* Bluetooth RSSI MeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluetooth RSSI MeterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8751B4A2BCC4F8500A34885 /* Bluetooth_RSSI_MeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_RSSI_MeterTests.swift; sourceTree = "<group>"; };
+		D8751B502BCC4F8500A34885 /* Bluetooth RSSI MeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluetooth RSSI MeterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8751B542BCC4F8500A34885 /* Bluetooth_RSSI_MeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_RSSI_MeterUITests.swift; sourceTree = "<group>"; };
+		D8751B562BCC4F8500A34885 /* Bluetooth_RSSI_MeterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_RSSI_MeterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8751B322BCC4F8100A34885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8751B432BCC4F8500A34885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8751B4D2BCC4F8500A34885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8751B2C2BCC4F8100A34885 = {
+			isa = PBXGroup;
+			children = (
+				D8751B372BCC4F8100A34885 /* Bluetooth RSSI Meter */,
+				D8751B492BCC4F8500A34885 /* Bluetooth RSSI MeterTests */,
+				D8751B532BCC4F8500A34885 /* Bluetooth RSSI MeterUITests */,
+				D8751B362BCC4F8100A34885 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8751B362BCC4F8100A34885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8751B352BCC4F8100A34885 /* Bluetooth RSSI Meter.app */,
+				D8751B462BCC4F8500A34885 /* Bluetooth RSSI MeterTests.xctest */,
+				D8751B502BCC4F8500A34885 /* Bluetooth RSSI MeterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8751B372BCC4F8100A34885 /* Bluetooth RSSI Meter */ = {
+			isa = PBXGroup;
+			children = (
+				D8751B382BCC4F8100A34885 /* Bluetooth_RSSI_MeterApp.swift */,
+				D8751B3A2BCC4F8100A34885 /* ContentView.swift */,
+				D8751B3C2BCC4F8400A34885 /* Assets.xcassets */,
+				D8751B3E2BCC4F8400A34885 /* Bluetooth_RSSI_Meter.entitlements */,
+				D8751B3F2BCC4F8400A34885 /* Preview Content */,
+			);
+			path = "Bluetooth RSSI Meter";
+			sourceTree = "<group>";
+		};
+		D8751B3F2BCC4F8400A34885 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D8751B402BCC4F8400A34885 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8751B492BCC4F8500A34885 /* Bluetooth RSSI MeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8751B4A2BCC4F8500A34885 /* Bluetooth_RSSI_MeterTests.swift */,
+			);
+			path = "Bluetooth RSSI MeterTests";
+			sourceTree = "<group>";
+		};
+		D8751B532BCC4F8500A34885 /* Bluetooth RSSI MeterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8751B542BCC4F8500A34885 /* Bluetooth_RSSI_MeterUITests.swift */,
+				D8751B562BCC4F8500A34885 /* Bluetooth_RSSI_MeterUITestsLaunchTests.swift */,
+			);
+			path = "Bluetooth RSSI MeterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8751B342BCC4F8100A34885 /* Bluetooth RSSI Meter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8751B5A2BCC4F8500A34885 /* Build configuration list for PBXNativeTarget "Bluetooth RSSI Meter" */;
+			buildPhases = (
+				D8751B312BCC4F8100A34885 /* Sources */,
+				D8751B322BCC4F8100A34885 /* Frameworks */,
+				D8751B332BCC4F8100A34885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bluetooth RSSI Meter";
+			productName = "Bluetooth RSSI Meter";
+			productReference = D8751B352BCC4F8100A34885 /* Bluetooth RSSI Meter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8751B452BCC4F8500A34885 /* Bluetooth RSSI MeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8751B5D2BCC4F8500A34885 /* Build configuration list for PBXNativeTarget "Bluetooth RSSI MeterTests" */;
+			buildPhases = (
+				D8751B422BCC4F8500A34885 /* Sources */,
+				D8751B432BCC4F8500A34885 /* Frameworks */,
+				D8751B442BCC4F8500A34885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8751B482BCC4F8500A34885 /* PBXTargetDependency */,
+			);
+			name = "Bluetooth RSSI MeterTests";
+			productName = "Bluetooth RSSI MeterTests";
+			productReference = D8751B462BCC4F8500A34885 /* Bluetooth RSSI MeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8751B4F2BCC4F8500A34885 /* Bluetooth RSSI MeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8751B602BCC4F8500A34885 /* Build configuration list for PBXNativeTarget "Bluetooth RSSI MeterUITests" */;
+			buildPhases = (
+				D8751B4C2BCC4F8500A34885 /* Sources */,
+				D8751B4D2BCC4F8500A34885 /* Frameworks */,
+				D8751B4E2BCC4F8500A34885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8751B522BCC4F8500A34885 /* PBXTargetDependency */,
+			);
+			name = "Bluetooth RSSI MeterUITests";
+			productName = "Bluetooth RSSI MeterUITests";
+			productReference = D8751B502BCC4F8500A34885 /* Bluetooth RSSI MeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8751B2D2BCC4F8100A34885 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D8751B342BCC4F8100A34885 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D8751B452BCC4F8500A34885 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D8751B342BCC4F8100A34885;
+					};
+					D8751B4F2BCC4F8500A34885 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D8751B342BCC4F8100A34885;
+					};
+				};
+			};
+			buildConfigurationList = D8751B302BCC4F8100A34885 /* Build configuration list for PBXProject "Bluetooth RSSI Meter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8751B2C2BCC4F8100A34885;
+			productRefGroup = D8751B362BCC4F8100A34885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8751B342BCC4F8100A34885 /* Bluetooth RSSI Meter */,
+				D8751B452BCC4F8500A34885 /* Bluetooth RSSI MeterTests */,
+				D8751B4F2BCC4F8500A34885 /* Bluetooth RSSI MeterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8751B332BCC4F8100A34885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8751B412BCC4F8400A34885 /* Preview Assets.xcassets in Resources */,
+				D8751B3D2BCC4F8400A34885 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8751B442BCC4F8500A34885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8751B4E2BCC4F8500A34885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8751B312BCC4F8100A34885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8751B3B2BCC4F8100A34885 /* ContentView.swift in Sources */,
+				D8751B392BCC4F8100A34885 /* Bluetooth_RSSI_MeterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8751B422BCC4F8500A34885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8751B4B2BCC4F8500A34885 /* Bluetooth_RSSI_MeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8751B4C2BCC4F8500A34885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8751B572BCC4F8500A34885 /* Bluetooth_RSSI_MeterUITestsLaunchTests.swift in Sources */,
+				D8751B552BCC4F8500A34885 /* Bluetooth_RSSI_MeterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8751B482BCC4F8500A34885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8751B342BCC4F8100A34885 /* Bluetooth RSSI Meter */;
+			targetProxy = D8751B472BCC4F8500A34885 /* PBXContainerItemProxy */;
+		};
+		D8751B522BCC4F8500A34885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8751B342BCC4F8100A34885 /* Bluetooth RSSI Meter */;
+			targetProxy = D8751B512BCC4F8500A34885 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D8751B582BCC4F8500A34885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8751B592BCC4F8500A34885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D8751B5B2BCC4F8500A34885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Bluetooth RSSI Meter/Bluetooth_RSSI_Meter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bluetooth RSSI Meter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mssh.io.Bluetooth-RSSI-Meter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8751B5C2BCC4F8500A34885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Bluetooth RSSI Meter/Bluetooth_RSSI_Meter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bluetooth RSSI Meter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mssh.io.Bluetooth-RSSI-Meter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8751B5E2BCC4F8500A34885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mssh.io.Bluetooth-RSSI-MeterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluetooth RSSI Meter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bluetooth RSSI Meter";
+			};
+			name = Debug;
+		};
+		D8751B5F2BCC4F8500A34885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mssh.io.Bluetooth-RSSI-MeterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluetooth RSSI Meter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bluetooth RSSI Meter";
+			};
+			name = Release;
+		};
+		D8751B612BCC4F8500A34885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mssh.io.Bluetooth-RSSI-MeterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bluetooth RSSI Meter";
+			};
+			name = Debug;
+		};
+		D8751B622BCC4F8500A34885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mssh.io.Bluetooth-RSSI-MeterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bluetooth RSSI Meter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8751B302BCC4F8100A34885 /* Build configuration list for PBXProject "Bluetooth RSSI Meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8751B582BCC4F8500A34885 /* Debug */,
+				D8751B592BCC4F8500A34885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8751B5A2BCC4F8500A34885 /* Build configuration list for PBXNativeTarget "Bluetooth RSSI Meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8751B5B2BCC4F8500A34885 /* Debug */,
+				D8751B5C2BCC4F8500A34885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8751B5D2BCC4F8500A34885 /* Build configuration list for PBXNativeTarget "Bluetooth RSSI MeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8751B5E2BCC4F8500A34885 /* Debug */,
+				D8751B5F2BCC4F8500A34885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8751B602BCC4F8500A34885 /* Build configuration list for PBXNativeTarget "Bluetooth RSSI MeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8751B612BCC4F8500A34885 /* Debug */,
+				D8751B622BCC4F8500A34885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8751B2D2BCC4F8100A34885 /* Project object */;
+}
